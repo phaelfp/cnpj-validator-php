@@ -1,0 +1,25 @@
+{
+  "name": "phaelfp/cnpj-validator-php",
+  "description": "Validador de CNPJ numérico e alfanumérico (novo padrão Receita Federal)",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PhaelFP\\CnpjValidator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhaelFP\\CnpjValidator\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "phpstan/phpstan": "^1.10"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
